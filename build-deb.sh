@@ -24,8 +24,8 @@ if [ -d "$OUT_DIR" ]; then
   rm -rf "$OUT_DIR"
 fi
 
-wget https://github.com/kusti8/chromium-build/blob/master/chromium_60.tar.gz?raw=true -O chromium.tar.gz
-tar xvf chromium.tar.gz
+wget https://github.com/nathangiovannini3/chromium-build/tree/Dev/chromium-64.tar.xz?raw=true -O chromium.tar.xz
+tar xvf chromium.tar.xz
 mv chromium-browser_51.0.2704.91-0ubuntu0.14.04.1.6001 $OUT_DIR
 
 
